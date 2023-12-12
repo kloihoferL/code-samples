@@ -10,7 +10,7 @@ Ein interaktives Memory-Spiel, bei dem die Größe des Spielfelds festgelegt wer
 2. Klicke auf gleiche Bildpaare, um sie zu entfernen.
 3. Am Ende wird die Anzahl der benötigten Spielzüge angezeigt.
 
-[Link zum Memory-Spiel](https://github.com/lk21045/code-samples/tree/main/Memory)
+[Link zum Memory-Spiel](https://github.com/kloihoferL/code-samples/tree/main/Memory)
 
 
 
