@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+
+body {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+
+#wrapper{
+    width: 1000px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid blue;
+}
+
+
+#memoryField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    background-image: url("../imgs/vorderseite.jpg");
+    border: 5px solid white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card img{
+    outline: 10px solid white;
+}
+
+
+.found{
+    background-image: unset;
+    background-color: black;
+}
+#buttons {
+    margin-bottom: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#start{
+    width: 100px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+
+label, input{
+    font-family: Helvetica , sans-serif;
+    font-size: 18px;
+}
+
+
+input{
+
+    background-color: white;
+
+}
+
+
+input[type=button]:hover{
+    background-color: blue;
+    color: #fff;
+}

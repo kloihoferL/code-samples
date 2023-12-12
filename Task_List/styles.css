@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+}
+
+div#wrapper{
+    width: 650px;
+    margin: 30px auto;
+    padding: 20px 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Left input{
+    padding-right: 50px;
+    margin-right: 10px;
+}
+
+#wrapper{
+    padding: 10px;
+    border: solid black 1px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+input#titleInput {
+    margin-left: 59px;
+}
+input#authorInput {
+    margin-left: 30px;
+}
+.addButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Left{
+    display: flex;
+    justify-content: flex-start;
+}
+div#buttons{
+    padding-top: 15px;
+}
+div#listOfBugs{
+    margin-top: 15px;
+}
+
+
+.inline{
+    display: inline;
+    padding: 0;
+}
+
+.checked {
+    color: black;
+    background-color: lightgreen;
+}
+.not_checked{
+color: red;
+}
+
+.pagemanager{
+display: flex;
+justify-content: right;
+}
+

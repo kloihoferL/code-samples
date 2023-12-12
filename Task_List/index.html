@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webbasierte Aufgabenliste</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+    <h1>Bug-List</h1>
+
+    <form name="bugList">
+        <div id="bugEntry">
+            <div class="row">
+                <div id="title">
+                    <label for="titleInput">Title:</label>
+                    <input type="text" name="title" id="titleInput">
+                </div>
+                <div id="author">
+                    <label for="authorInput">Author:</label>
+                    <input type="text" name="author" id="authorInput">
+                </div>
+            </div>
+
+            <div id="description" class="row">
+                <label for="descriptionInput">Description:</label>
+                <textarea name="description" rows="6" cols="56" id="descriptionInput"></textarea>
+            </div>
+
+            <div class="addButton">
+                <input id="add" type="button" value="Add"/>
+            </div>
+
+        </div>
+        <hr/>
+        <div id="buttons" class="row">
+            <div class="Left">
+                <input id="showAll" type="button" value="Show all" />
+                <input id="showOpen" type="button" value="Show open" />
+                <input id="deleteClosed" type="button" value="Delete closed" />
+            </div>
+
+            <div class="floatLeft">
+                <input id="filter" type="button" value="Filter" />
+                <select id="selectName" name="name" size="1">
+                    <option value="">Select Person</option>
+                </select>
+            </div>
+        </div>
+    </form>
+
+    <div id="listOfBugs"></div>
+
+    <script type="text/javascript" src="main.js"></script>
+</div>
+</body>
+</html>
